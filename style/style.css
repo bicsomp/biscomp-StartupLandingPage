@@ -1,0 +1,79 @@
+/* .col {
+    background-color: grey;
+    border: 2px solid black;
+} */
+
+/* body {
+   
+    background-size: cover;
+} */
+
+body {
+    background: rgb(3, 15, 85);
+    background-image: url("../images/suprise-bg.jpg"); /* fallback */
+    background-image: linear-gradient(rgba(3, 15, 85, 0.4), rgba(3, 15, 85, 0.7)), url("../images/suprise-bg.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    /* background-size: cover;
+    width: 100%;
+    height: 100%; */
+    /* background: linear-gradient(rgba(3, 15, 85, 0.4), rgba(3, 15, 85, 0.7)), url('../images/suprise-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; */
+}
+
+.jumbotron {
+    background: none;
+    border-radius: 0px;
+ }
+
+ 
+h1 {
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+    margin-bottom: 2rem;
+}
+
+u {
+    padding: 20px;
+}
+
+.btn {
+    border-radius: 0px;
+    box-shadow: 2px;
+    margin: 2rem;
+    transition: ease-in-out 0.2s;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.15);
+    box-shadow: 3px;    
+    transition: ease-out 0.1s;
+}
+
+.btn:active {
+    transform: scale(1.1);
+    box-shadow: 2px;
+}
+
+
+.btn-primary:focus, .btn-primary:active, .btn-primary.active:focus {
+    outline: 0 none !important;
+}
+
+
+p {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+p.lead {
+    text-transform: uppercase;
+}
